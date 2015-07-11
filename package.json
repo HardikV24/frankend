@@ -1,0 +1,15 @@
+{
+  "name": "frankend",
+  "version": "0.0.1",
+  "description": "Frankenbrat's back-end server.",
+  "main": "server.js",
+  "repository": "https://github.com/HardikV24/frankend.git",
+  "author": "Hardik Vala <hardik.vala@mail.mcgill.ca> & Stefan Dimitrov <stefan.dimitrov@mail.mcgill.ca>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "firebase": "^2.2.7",
+    "socket.io": "~0.9.14"
+  }
+}
+
