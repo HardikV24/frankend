@@ -5,7 +5,7 @@ var fs = require("fs");
 var app = express();
 
 // Manages Firebase app info.
-var FB = JSON.parse(fs.readFileSync("../fb.json", "utf8"));
+var FB = JSON.parse(fs.readFileSync("fb.json", "utf8"));
 
 var myFirebaseRef = new Firebase(FB.link + "/docData/docs");
 var data = [];
